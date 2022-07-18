@@ -2,7 +2,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 /* color scheme sourced from http://khroma.co/generator/ */
@@ -32,13 +34,8 @@ p {
     color: var(--primaryfontcolor);
 }
 
-a {
-    text-decoration: none;
+ul li a {
     color: var(--primaryfontcolor)
-}
-
-a:hover {
-    border-bottom: 2px var(--primaryfontcolor) solid;
 }
 
 /* navbar */
@@ -67,12 +64,16 @@ h1 {
     letter-spacing: 3px;
 }
 
+nav ul li a:hover {
+    border-bottom: 2px var(--primaryfontcolor) solid;
+}
+
 /* hero section */
 .hero {
-    height: 100vh;
+    height: 30vh;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url();
+    margin-bottom: 15px;
+    background-image: url(/assets/images/hero2.png);
     background-size: cover;
     background-position: center;
 
@@ -102,11 +103,29 @@ h1 {
     width: 550px;
 }
 
+/* work section */
+
+
 /* contact section */
+#contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#contact-me h2::after {
+    content: "  👋";
+}
+
 .contact-text ul li {
     display: inline-block;
     margin: 0 20px;
     font-size: 25px;
+}
+
+.contact-text ul li a:hover {
+    background-color: var(--primarybackground);
 }
 
 /* footer */
