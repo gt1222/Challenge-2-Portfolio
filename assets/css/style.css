@@ -39,7 +39,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 /* image divider */
@@ -53,22 +53,26 @@ main {
     line-height: 1.6;
 }
 
-section {
-    display: grid;
-    grid-template-columns: ;
+h2 {
+    font-size: 40px;
 }
 
-h2 {
-    font-size: 50px;
+h3 {
+    font-size: 25px;
 }
 
 p {
     font-size: 16px;
 }
 
-/* contact me section */
-#contactme {
+/* about me */
+.about-info {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon {
+    
 }
 
 /* footer */
