@@ -18,10 +18,12 @@ h1, h2, h3 {
 
 h2 {
     font-size: 34px;
+    margin-bottom: 15px;
 }
 
 h3 {
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 p {
@@ -82,27 +84,26 @@ h1 {
 
 /* about me */
 #about-me {
-    min-height: auto;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    padding: 100px 0px;
 }
 
-.about-container {
+#about-me img {
+    height: 400px;
+    width: 400px;
+}
+
+.about {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.placeholder {
-    width: 100px;
-    height: 100px;
-}
-
-.placeholder img {
-    width: 100%;
-    border-radius: 50%;
-    border: var(--primarybackground) 3px solid;
+.about-text {
+    width: 550px;
 }
 
 /* footer */
