@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
     text-decoration: none;
+    text-align: center;
 }
 
 /* color scheme sourced from http://khroma.co/generator/ */
@@ -104,7 +105,33 @@ nav ul li a:hover {
 }
 
 /* work section */
+#work {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 25px;
+}
 
+.container {
+    display: flex;
+    flex: 1;
+    max-width: 1130px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
+    height: 230px;
+    padding: 5px;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
 
 /* contact section */
 #contact-me {
@@ -127,6 +154,13 @@ nav ul li a:hover {
 .contact-text ul li a:hover {
     background-color: var(--primarybackground);
 }
+
+/* media queries */
+/* @media screen and (max-width:768px) {
+    .container {
+        flex-direction: column;
+    }
+} */
 
 /* footer */
 footer {
