@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
+/* color scheme sourced from http://khroma.co/generator/ */
 :root {
     --primarybackground: #ebdcd3;
     --primaryfontcolor: #8c2318;
@@ -47,6 +48,28 @@ img {
 }
 
 /* main area */
+main {
+    color: var(--primaryfontcolor);
+    line-height: 1.6;
+}
+
+section {
+    display: grid;
+    grid-template-columns: ;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* contact me section */
+#contactme {
+    display: flex;
+}
 
 /* footer */
 footer {
