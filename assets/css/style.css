@@ -32,8 +32,13 @@ p {
     color: var(--primaryfontcolor);
 }
 
-.flex {
-    flex: 1;
+a {
+    text-decoration: none;
+    color: var(--primaryfontcolor)
+}
+
+a:hover {
+    border-bottom: 2px var(--primaryfontcolor) solid;
 }
 
 /* navbar */
@@ -55,15 +60,6 @@ nav ul li{
     display: inline-block;
     margin: 0 15px;
     font-size: 24px;
-}
-
-a {
-    text-decoration: none;
-    color: var(--primaryfontcolor)
-}
-
-a:hover {
-    border-bottom: 2px var(--primaryfontcolor) solid;
 }
 
 h1 {
@@ -104,6 +100,13 @@ h1 {
 
 .about-text {
     width: 550px;
+}
+
+/* contact section */
+.contact-text ul li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 25px;
 }
 
 /* footer */
