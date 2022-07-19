@@ -107,9 +107,9 @@ nav ul li a:hover {
 /* work section */
 #work {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     padding: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .container {
@@ -150,7 +150,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 25px;
+    margin: 25px;
 }
 
 #contact-me h2::after {

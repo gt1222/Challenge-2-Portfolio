@@ -18,14 +18,14 @@ Since the last challenge had a navigation bar, I decided to work on that section
 
 I also surprised myself with how much I remembered and the different elements I used for this project. For example, using ```:root``` element for the two primary colors I switched between throughtout the challenge.
 
-Overall, I was both frustrated and happy with this project. Working with flexbox and creating the cards for the "Work" section stressed me out because I tried multiple different ways to get to an okay spot in my project. Even though I wasn't able to figure out how to make one of the cards twice as large, I am really happy to complete the majority of it and from scratch too! 
+Overall, I was both frustrated and happy with this project. Working with flexbox and creating the cards for the "Work" section stressed me out because I tried multiple different ways to get to an okay spot in my project. Even though the flexbox cards aren't really nice to look at, I am really happy to complete the majority of it and from scratch too! 
 
 ## Usage
 The navigation bar works to reach the different link section. The wider screen looks exactly how I want it to look. The only thing missing is the larger image for the first application. The smaller screen screen also looks good, except I realized the "work" section was not centered.
 
-![website in wider screen](assets/images/fullscreen.png)
+![website in wider screen](assets/images/fscreen2.png)
 
-![website in smaller screen](assets/images/smallerscreen.png)
+![website in smaller screen](assets/images/sscreen2.png)
 
 
 ## Deployed Site
