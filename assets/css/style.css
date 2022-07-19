@@ -121,6 +121,11 @@ nav ul li a:hover {
 .box {
     width: 430px;
     margin: 10px;
+    flex-basis: 15rem;
+}
+
+.box2 {
+    flex-basis: 30rem;
 }
 
 .box-img {
