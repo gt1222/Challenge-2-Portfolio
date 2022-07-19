@@ -74,7 +74,7 @@ nav ul li a:hover {
     height: 30vh;
     width: 100%;
     margin-bottom: 15px;
-    background-image: url(/assets/images/hero2.png);
+    background-image: url("../images/hero2.png");
     background-size: cover;
     background-position: center;
 
@@ -115,12 +115,20 @@ nav ul li a:hover {
 .container {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
 .box {
     width: 430px;
     margin: 10px;
+    flex: 0 1 430px;
+}
+
+.box2 {
+    width: 860px;
+    margin: 10px;
+    flex: 0 2 430px;
 }
 
 .box-img {
